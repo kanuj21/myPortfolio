@@ -1,6 +1,6 @@
 
 
- import { AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import SkillPill, { type SkillPillProps } from "./skills";
 
 
@@ -31,7 +31,7 @@ export default function SkillsShowcase({ skills }: SkillsShowcaseProps) {
               <div className="mt-2 flex flex-wrap gap-4 text-xl text-accent-foreground">
                 {section.skills.map((pill, index) => (
                   
-                  <div data-aos="fade-right">
+                  <div key={index} data-aos="fade-right">
                     <SkillPill {...pill} />
                   </div>
                     

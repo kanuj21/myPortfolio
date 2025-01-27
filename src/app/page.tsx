@@ -1,6 +1,6 @@
 
 import Navbar from "@/components/Navbar/navbar";
-import Image from "next/image";
+
 import { HeroSection } from "@/app/Sections/heroSection/hero_main";
 import { About } from "./Sections/about/about";
 import SkillMain from "./Sections/skills/skills-main";
@@ -20,7 +20,7 @@ export default function Home() {
       <div className="w-full py-4 pt-8 lg:p-4">
       <HeroSection />
       <About />
-{/*       <SkillMain/> */}
+      <SkillMain/>
       <Project />
       </div>
       <Footer/>
