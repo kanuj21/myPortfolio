@@ -20,7 +20,7 @@ export default function Home() {
       <div className="w-full py-4 pt-8 lg:p-4">
       <HeroSection />
       <About />
-      <SkillMain/>
+{/*       <SkillMain/> */}
       <Project />
       </div>
       <Footer/>
