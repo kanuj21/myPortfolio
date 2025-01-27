@@ -6,18 +6,13 @@ import { About } from "./Sections/about/about";
 import SkillMain from "./Sections/skills/skills-main";
 import Footer from "./Sections/Footer/footer";
 import Project from "./Sections/Projects/project";
-// import dynamic from 'next/dynamic'
- 
-// const DynamicComponentWithNoSSR = dynamic(
-//   () => import('@/app/Sections/skills/skills-main/SkillMain'),
-//   { ssr: false }
-// )
+import SkillsShowcase from "./Sections/skills/skillsbutton";
+import { SKILLS_DATA } from "./Data/skills-data";
+
 export default function Home() {
   return (
     <div className="top-0 grid w-full grid-rows-[10px_1fr_10px] items-start justify-items-center  pb-20 gap-16  font-[family-name:var(--font-geist-sans)]">
-      {/* <main className="flex flex-col row-start-2 items-center overflow-hidden">
-        
-      </main> */}
+      
       <div className="z-20 w-full lg:px-5">
         <Navbar/>
         
@@ -25,7 +20,8 @@ export default function Home() {
       <div className="w-full py-4 pt-8 lg:p-4">
       <HeroSection />
       <About />
-      <SkillMain/>
+      <SkillsShowcase skills={SKILLS_DATA} />
+      {/* <SkillMain/> */}
       <Project />
       </div>
       <Footer/>
