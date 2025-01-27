@@ -28,10 +28,10 @@ export default function Project() {
       <HeaderTitle title='Projects' />
       </div>
       
-      <div className='grid  lg:px-5 lg:grid-cols-3 grid-cols-1 grid-flow-row gap-8 justify-center items-center'>
+      <div className='grid  lg:px-5 lg:grid-cols-3 grid-cols-1 grid-flow-row gap-8 justify-center items-start'>
       
       {projects.map((project, index) => (
-        <div data-aos="zoom-in-up" key={index}  className='w-full shadow-lg hover:inset-6 rounded-md bg-[#171918]'>
+        <div data-aos="zoom-in-up" key={index} className='w-full shadow-lg hover:inset-6 rounded-md bg-[#171918]'>
         
         <figure >
         <div className='flex'>
@@ -54,9 +54,9 @@ export default function Project() {
           <p className='text-yellow-100'>{project.description}</p>
         </figcaption>
         <div className='p-2 flex flex-wrap gap-3'>
-          {project.techs.map((button) => (
+          {project.techs.map((button, index) => (
             <div className=''>
-            <ProjectButton key={button.name} {...button} />
+            <ProjectButton key={index} {...button} />
           </div>
           ))}
         

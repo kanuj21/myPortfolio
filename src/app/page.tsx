@@ -3,10 +3,10 @@ import Navbar from "@/components/Navbar/navbar";
 
 import { HeroSection } from "@/app/Sections/heroSection/hero_main";
 import { About } from "./Sections/about/about";
-// import SkillMain from "./Sections/skills/skills-main";
+import SkillMain from "./Sections/skills/skills-main";
 import Footer from "./Sections/Footer/footer";
 import Project from "./Sections/Projects/project";
-// import SkillsShowcase from "./Sections/skills/skillsbutton";
+
 import { SKILLS_DATA } from "./Data/skills-data";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <HeroSection />
       <About />
       {/* <SkillsShowcase skills={SKILLS_DATA} /> */}
-      {/* <SkillMain/> */}
+      <SkillMain/>
       <Project />
       </div>
       <Footer/>

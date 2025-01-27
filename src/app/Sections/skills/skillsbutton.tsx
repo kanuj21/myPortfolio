@@ -1,6 +1,3 @@
-
-
-import { AnimatePresence } from "framer-motion";
 import SkillPill, { type SkillPillProps } from "./skills";
 
 
@@ -23,8 +20,8 @@ export default function SkillsShowcase({ skills }: SkillsShowcaseProps) {
       <div className="relative mx-auto max-w-7xl">
         
         {skills.map((section) => (
-           <AnimatePresence key={section.sectionName}>
-            <div className="mt-4">
+           
+            <div className="mt-4" key={section.sectionName}>
               <span className="text-xs font-semibold text-foreground sm:text-sm">
                 {section.sectionName}
               </span>
@@ -39,7 +36,7 @@ export default function SkillsShowcase({ skills }: SkillsShowcaseProps) {
                 ))}
               </div>
             </div>
-           </AnimatePresence>
+          
         ))}
       </div>
     </section>
