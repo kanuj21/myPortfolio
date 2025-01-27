@@ -37,8 +37,8 @@
   
   
   // Database and ORMS
-  import SqlSVG from "@/app/icons/MySQL.svg";
-  import PostgresSVG from "@/app/icons/PostgresSQL.svg";
+  import SqlSVG from "@/app/Icons/MySQL.svg";
+  import PostgresSVG from "@/app/Icons/PostgresSQL.svg";
   import HibernateSvg from "@/app/Icons/Hibernate.svg"
  
   
