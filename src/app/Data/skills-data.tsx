@@ -172,6 +172,6 @@
     
   ];
 
-  
+   export default SKILLS_DATA;
   
   
