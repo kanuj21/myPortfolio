@@ -6,7 +6,12 @@ import { About } from "./Sections/about/about";
 import SkillMain from "./Sections/skills/skills-main";
 import Footer from "./Sections/Footer/footer";
 import Project from "./Sections/Projects/project";
-
+// import dynamic from 'next/dynamic'
+ 
+// const DynamicComponentWithNoSSR = dynamic(
+//   () => import('@/app/Sections/skills/skills-main/SkillMain'),
+//   { ssr: false }
+// )
 export default function Home() {
   return (
     <div className="top-0 grid w-full grid-rows-[10px_1fr_10px] items-start justify-items-center  pb-20 gap-16  font-[family-name:var(--font-geist-sans)]">

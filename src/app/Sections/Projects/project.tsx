@@ -30,8 +30,8 @@ export default function Project() {
       
       <div className='grid  lg:px-5 lg:grid-cols-3 grid-cols-1 grid-flow-row gap-8 justify-center items-center'>
       
-      {projects.map((project) => (
-        <div data-aos="zoom-in-up" className='w-full shadow-lg hover:inset-6 rounded-md bg-[#171918]'>
+      {projects.map((project, index) => (
+        <div data-aos="zoom-in-up" key={index}  className='w-full shadow-lg hover:inset-6 rounded-md bg-[#171918]'>
         
         <figure >
         <div className='flex'>
