@@ -42,7 +42,7 @@
   import HibernateSvg from "@/app/Icons/Hibernate.svg"
  
   
-  export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
+   const SKILLS_DATA = () : SkillsShowcaseProps["skills"] => [
     {
       sectionName: "Web Tech",
       
