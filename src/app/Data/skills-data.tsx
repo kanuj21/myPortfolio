@@ -6,7 +6,7 @@
   // Front End Framework
   import React_SVG from "@/app/Icons/React.svg";
   import TailwindSVG from "@/app/Icons/TailwindCSS.svg";
-  import BootStrapSVG from "@/app/Icons/BootStrap.svg";
+  import BootStrapSVG from "@/app/Icons/Bootstrap.svg";
   import NextSVG from "@/app/Icons/Nextjs.svg"
   import MuiSVG from "@/app/Icons/MaterialUI.svg";
 
