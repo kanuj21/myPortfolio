@@ -2,9 +2,10 @@
 
   import { SkillsShowcaseProps } from "@/app/Sections/skills/skillsbutton";
 
-  
+
   // Front End Framework
-  import React_SVG from "@/app/Icons/React.svg";
+  import RtSVG from "@/app/Icons/React.svg";
+
   import TailwindSVG from "@/app/Icons/TailwindCSS.svg";
   import BootStrapSVG from "@/app/Icons/Bootstrap.svg";
   import NextSVG from "@/app/Icons/Nextjs.svg"
@@ -41,6 +42,7 @@
   import PostgresSVG from "@/app/Icons/PostgresSQL.svg";
   import HibernateSvg from "@/app/Icons/Hibernate.svg"
  
+
   
   export const SKILLS_DATA : SkillsShowcaseProps["skills"] = [
     {
@@ -75,7 +77,7 @@
       skills: [
         {
           name: "Reactjs",
-          icon: React_SVG,
+          icon: RtSVG,
         },
         {
           name: "Nextjs",
