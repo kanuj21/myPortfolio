@@ -44,135 +44,259 @@
  
 
   
-  export const SKILLS_DATA : SkillsShowcaseProps["skills"] = [
-    {
-      sectionName: "Web Tech",
+  // export const SKILLS_DATA : SkillsShowcaseProps["skills"] = [
+  //   {
+  //     sectionName: "Web Tech",
       
-      skills: [
-        {
-          name: "HTML",
-          icon: HtmlSVG,
-         },
-        {
-          name: "CSS",
-          icon: CssSVG,
-        },
+  //     skills: [
+  //       {
+  //         name: "HTML",
+  //         icon: "@/app/Icons/HTML5.svg",
+  //        },
+  //       {
+  //         name: "CSS",
+  //         icon: "@/app/Icons/CSS3.svg",
+  //       },
         
-        {
-          name: "Javascript",
-          icon: JavascriptSVG,
-        },
-        {
-          name: "Typescript",
-          icon: TypescriptSVG,
-        },
-        {
-          name : "BootStrap",
-          icon : BootStrapSVG,
-        },
-      ],
-    },
-    {
-      sectionName: "Libraries and Frameworks",
-      skills: [
-        {
-          name: "Reactjs",
-          icon: RtSVG,
-        },
-        {
-          name: "Nextjs",
-          icon: NextSVG,
-        },
+  //       {
+  //         name: "Javascript",
+  //         icon: "@/app/Icons/JavaScript.svg",
+  //       },
+  //       {
+  //         name: "Typescript",
+  //         icon: "@/app/Icons/TypeScript.svg",
+  //       },
+  //       {
+  //         name : "BootStrap",
+  //         icon : "@/app/Icons/Bootstrap.svg",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     sectionName: "Libraries and Frameworks",
+  //     skills: [
+  //       {
+  //         name: "Reactjs",
+  //         icon: "@/app/Icons/React.svg",
+  //       },
+  //       {
+  //         name: "Nextjs",
+  //         icon: "@/app/Icons/Nextjs.svg",
+  //       },
         
-        {
-          name: "Tailwindcss",
-          icon: TailwindSVG,
-        },
-        {
-          name: "MUI",
-          icon: MuiSVG,
-        },
-      ],
-    },
+  //       {
+  //         name: "Tailwindcss",
+  //         icon: "@/app/Icons/TailwindCSS.svg",
+  //       },
+  //       {
+  //         name: "MUI",
+  //         icon: "@/app/Icons/MaterialUI.svg",
+  //       },
+  //     ],
+  //   },
 
-    {
-      sectionName: "Backend",
-      skills: [
-        {
-          name: "Spring",
-          icon: SpringSVG,
-        },
-        {
-          name: "Laravel",
-          icon: LaravelSVG,
-        },
+  //   {
+  //     sectionName: "Backend",
+  //     skills: [
+  //       {
+  //         name: "Spring",
+  //         icon: "@/app/Icons/Spring.svg",
+  //       },
+  //       {
+  //         name: "Laravel",
+  //         icon: "@/app/Icons/Laravel.svg",
+  //       },
         
-      ],
-    },
+  //     ],
+  //   },
 
-    {
-      sectionName : "Language",
-      skills : [
-        {
-          name: "Java",
-          icon : JavaSVG,
-        },
-        {
-          name: "C++",
-          icon: CPlusSVG,
-        },
-        {
-          name: "PHP",
-          icon: PhpSVG,
-        }
-      ],
-    },
+  //   {
+  //     sectionName : "Language",
+  //     skills : [
+  //       {
+  //         name: "Java",
+  //         icon : "@/app/Icons/Java.svg",
+  //       },
+  //       {
+  //         name: "C++",
+  //         icon: "@/app/Icons/CPlusPlus.svg",
+  //       },
+  //       {
+  //         name: "PHP",
+  //         icon: "@/app/Icons/PHP.svg",
+  //       }
+  //     ],
+  //   },
 
 
-    {
-      sectionName: "Databases and ORMs",
-      skills: [
-        {
-          name: "Postgress",
-          icon: PostgresSVG,
-        },
-        {
-          name: "MySQL",
-          icon: SqlSVG,
-        },
-        {
-          name : "Hibernate",
-          icon : HibernateSvg,
-        },
-      ],
-    },
-    {
-      sectionName: "Tools and Technologies",
-      skills: [
-        {
-          name: "Git",
-          icon: GitSVG,
-        },
-        {
-          name : "VS Code",
-          icon : VSCodeSVG,
-        },
-        {
-          name : "InteliJ Idea",
-          icon : InteliJSVG
-        },
-        {
-          name : "Linux",
-          icon : LinuxSVG,
-        },
-        {
-          name: "Postman",
-          icon: PostmanSVG,
-        },
-      ],
-    },
+  //   {
+  //     sectionName: "Databases and ORMs",
+  //     skills: [
+  //       {
+  //         name: "Postgress",
+  //         icon: "@/app/Icons/PostgresSQL.svg",
+  //       },
+  //       {
+  //         name: "MySQL",
+  //         icon: "@/app/Icons/MySQL.svg",
+  //       },
+  //       {
+  //         name : "Hibernate",
+  //         icon : "@/app/Icons/Hibernate.svg",
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     sectionName: "Tools and Technologies",
+  //     skills: [
+  //       {
+  //         name: "Git",
+  //         icon: "@/app/Icons/Git.svg",
+  //       },
+  //       {
+  //         name : "VS Code",
+  //         icon : "@/app/Icons/VSCode.svg",
+  //       },
+  //       {
+  //         name : "InteliJ Idea",
+  //         icon : "@/app/Icons/IntelliJIDEA.svg"
+  //       },
+  //       {
+  //         name : "Linux",
+  //         icon : "@/app/Icons/Linux.svg",
+  //       },
+  //       {
+  //         name: "Postman",
+  //         icon: "@/app/Icons/Postman.svg",
+  //       },
+  //     ],
+  //   },
     
-  ];
+  // ];
+  export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
+    {
+        sectionName: "Web Tech",
+        skills: [
+            {
+                name: "HTML",
+                icon: "./Icons/HTML5.svg", // Updated path
+            },
+            {
+                name: "CSS",
+                icon: "./Icons/CSS3.svg", // Updated path
+            },
+            {
+                name: "Javascript",
+                icon: "./Icons/JavaScript.svg", // Updated path
+            },
+            {
+                name: "Typescript",
+                icon: "./Icons/TypeScript.svg", // Updated path
+            },
+            {
+                name: "BootStrap",
+                icon: "./Icons/Bootstrap.svg", // Updated path
+            },
+        ],
+    },
+    {
+        sectionName: "Libraries and Frameworks",
+        skills: [
+            {
+                name: "Reactjs",
+                icon: "./Icons/React.svg", // Updated path
+            },
+            {
+                name: "Nextjs",
+                icon: "./Icons/Nextjs.svg", // Updated path
+            },
+            {
+                name: "Tailwindcss",
+                icon: "./Icons/TailwindCSS.svg", // Updated path
+            },
+            {
+                name: "MUI",
+                icon: "./Icons/MaterialUI.svg", // Updated path
+            },
+        ],
+    },
+
+    {
+        sectionName: "Backend",
+        skills: [
+            {
+                name: "Spring",
+                icon: "./Icons/Spring.svg", // Updated path
+            },
+            {
+                name: "Laravel",
+                icon: "./Icons/Laravel.svg", // Updated path
+            },
+        ],
+    },
+
+    {
+        sectionName: "Language",
+        skills: [
+            {
+                name: "Java",
+                icon: "./Icons/Java.svg", // Updated path
+            },
+            {
+                name: "C++",
+                icon: "./Icons/CPlusPlus.svg", // Updated path
+            },
+            {
+                name: "PHP",
+                icon: "./Icons/PHP.svg", // Updated path
+            },
+        ],
+    },
+
+    {
+        sectionName: "Databases and ORMs",
+        skills: [
+            {
+                name: "Postgress",
+                icon: "./Icons/PostgresSQL.svg", // Updated path
+            },
+            {
+                name: "MySQL",
+                icon: "./Icons/MySQL.svg", // Updated path
+            },
+            {
+                name: "Hibernate",
+                icon: "./Icons/Hibernate.svg", // Updated path
+            },
+        ],
+    },
+    {
+        sectionName: "Tools and Technologies",
+        skills: [
+            {
+                name: "Git",
+                icon: "./Icons/Git.svg", // Updated path
+            },
+            {
+                name: "VS Code",
+                icon: "./Icons/VSCode.svg", // Updated path
+            },
+            {
+                name: "InteliJ Idea",
+                icon: "./Icons/IntelliJIDEA.svg", // Updated path
+            },
+            {
+                name: "Linux",
+                icon: "./Icons/Linux.svg", // Updated path
+            },
+            {
+                name: "Postman",
+                icon: "./Icons/Postman.svg", // Updated path
+            },
+        ],
+    },
+];
+
 
    export default SKILLS_DATA;
   
