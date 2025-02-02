@@ -10,8 +10,8 @@ import { AboutImgMobile } from "./about-pic-mobile";
 export function About() {
     return (
         <div className="flex flex-col py-12 items-center justify-center">
-            <HeaderTitle title="About Me"/>
-            <div className="flex md:flex-row flex-col gap-5 justify-center items-start px-5 lg:px-10 translate-y-8">
+            <HeaderTitle title="Meet Me"/>
+            <div className="flex md:flex-row flex-col gap-5 justify-center items-start md:px-5 px-2 lg:px-10 translate-y-8">
               <div className="w-full md:hidden">
                 <AboutImgMobile/>
               </div>

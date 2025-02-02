@@ -5,26 +5,35 @@ export function AboutME (){
     return(
         <div data-aos="fade-right" className="flex flex-col min-w-64 w-full lg:p-2 leading-7 text-base">
             <h1 className="text-justify">
-            Hello! I'm <span className="text-mycolor">Ambuj Vats</span>, a passionate 
-            <span className="text-mycolor"> Full Stack Developer</span>  with a knack 
-            for building dynamic and innovative web applications. With a solid foundation
-            in Java, Spring Boot, React.js, and a variety of other cutting-edge technologies,
-            I thrive on turning complex ideas into seamless digital experiences.
+            <p>
+                I'm a passionate <span className="text-mycolor">Full Stack Developer</span> with a strong 
+                foundation in <span className="text-mycolor">Java, Spring Boot, React, Next.js</span>, and modern 
+                web technologies. Though my career journey faced a pause due to personal and medical reasons, 
+                my passion for coding never wavered. Over the past few years, I have continuously honed my skills, 
+                solving over <span className="text-mycolor">600+ DSA problems</span> on platforms like LeetCode and 
+                GeeksforGeeks, refining my problem-solving abilities and deepening my understanding 
+                of <span className="text-mycolor">algorithms</span> and <span className="text-mycolor">data structures</span>.
+            </p>
 
-            I believe in the power of learning and innovation. Over the years, 
-            I’ve honed my skills through hands-on projects like a 
-            <span className="text-mycolor"> User Management System</span> , 
-            a versatile Password Generator, and even a Java-based Airline Ticket
-            System. These projects reflect my ability to design, develop, and 
-            deliver solutions that are both efficient and user-friendly.
+            <p className="mt-4 mb-4">            
+                I have built several projects that showcase my expertise in both backend and
+                 frontend development. <span className="text-mycolor">My User Management System</span>, developed 
+                 with and React, demonstrates my ability to create efficient, scalable applications. 
+                 I'm also actively developing my portfolio website 
+                 using <span className="text-mycolor">Next.js</span> and <span className="text-mycolor">Tailwind CSS</span>, pushing myself to 
+                 integrate new features and enhance user experience. Additionally, 
+                 I built a <span className="text-mycolor">SuperHero App</span> that leverages JavaScript and external <span className="text-mycolor">APIs</span> to deliver engaging functionality.
+            </p>
 
-            When I’m not coding, you’ll find me exploring new tools and 
-            technologies, fueling my curiosity to stay ahead in the ever-evolving 
-            tech landscape. As a good observer and a constant learner, I embrace 
-            challenges and take pride in contributing to impactful solutions.
-            <span className="text-mycolor"> Feel free to explore my work, connect with me, and let’s create 
-            something amazing together!
-            </span>
+            <p>
+                Now, I am ready to embark on my professional journey 
+                as a <span className="text-mycolor">Full Stack Developer</span>. I thrive in environments that 
+                challenge me to learn and grow, and I am looking for an opportunity with a company that 
+                values dedication, curiosity, and a problem-solving mindset. My hunger for learning and adaptability 
+                ensures that I not only meet expectations but exceed 
+                them. <span className="text-mycolor">Let's build something amazing together!</span> 
+            </p>
+            
             </h1>
         </div>
     )

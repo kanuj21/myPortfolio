@@ -19,12 +19,12 @@ export const ProjectData:Project[] = [
         title : "User Management App",
         git : "https://github.com/kanuj21/UserManagement",
         demo: "#",
-        description: "Developed a User Management System using React.js for the front end and SpringBoot  for the back end. The system allows an admin to add, edit,  and delete user. Integrated PostgreSQL for database management andwrote secure, efficient APIs using Spring Boot to handle CRUD operations.",
+        description: "Developed a User Management System using React.js for the front end and SpringBoot  for the back end. The system allows an admin to add, edit,  and delete user. Integrated PostgreSQL for database management and wrote secure, efficient APIs using Spring Boot to handle CRUD operations.",
         techs:[
             { name: "Java", color: "bg-red-400" },
             // { name: "Python", color: "bg-blue-900" },
             {name: "JavaScript", color:"bg-yellow-500"},
-            {name: "HTML", color:"bg-gray-300"},
+            {name: "HTML", color:"bg-pink-600"},
             { name: "Spring", color: "bg-green-800" },
             // { name: "Python", color: "bg-green-400" },
             // {name: "Typecript", color:"bg-sky-800"},
@@ -40,7 +40,7 @@ export const ProjectData:Project[] = [
         git: "https://github.com/kanuj21/Super-Hero-API", // Replace with your actual GitHub repository URL
         demo: "https://kanuj21.github.io/Super-Hero-API/", // Replace with the URL of your deployed app
         techs: [
-          { name: "HTML", color:"bg-gray-300" },
+          { name: "HTML", color:"bg-pink-600" },
           { name: "CSS", color:"bg-red-800" },
           { name: "JavaScript", color:"bg-yellow-500" },
           { name: "Superhero API", color: "#000" }, // You can customize the color
@@ -58,8 +58,8 @@ export const ProjectData:Project[] = [
           { name: "Framer Motion", color: "bg-orange-700" }, // Orange for Framer Motion
           { name: "Tailwind CSS", color: "bg-blue-500" }, // Blue for Tailwind CSS
           { name: "TypeScript", color: "bg-sky-800" }, // Blue for TypeScript
-          { name: "Shadcn UI", color: "bg-stone-700" }, // Black for Shadcn UI
-          { name: "HTML", color:"bg-gray-300" },
+          { name: "Shadcn UI", color: "bg-stone-800" }, // Black for Shadcn UI
+          { name: "HTML", color:"bg-pink-600" },
           { name: "CSS", color:"bg-red-800" },
           { name: "JavaScript", color:"bg-yellow-500" },
         ],

@@ -3,15 +3,28 @@
  * @see https://v0.dev/t/lJwnQlHSEBA
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
+'use client'
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { FC, SVGProps } from "react";
 import { ModeTheme } from "./mode";
 
+
 export default function Navbar() {
+  
+
+  const handleNavLinkClick = (sectionId: string) => {
+    console.log(sectionId)
+    const targetSection = document.getElementById(sectionId);
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth" });
+      
+    }
+    
+  };
   return (
-    <header className="flex h-20 top-0 w-full shrink-0 items-center lg:px-12 md:px-6 px-2">
+    <header className="flex md:h-20 h-16 top-0 w-full shrink-0 items-center lg:px-12 md:px-6 px-2">
       <Sheet>
       <SheetTrigger asChild className="w-full overflow-hidden">
           <div className="lg:hidden flex w-full items-center">
@@ -19,7 +32,7 @@ export default function Navbar() {
               @AMBUJ
               {/* <MountainIcon className="lg:mr-80 mr-32 md:h-16 md:w-16 h-10 w-10 dark:bg-white rounded-md text-white" /> */}
             </h1>
-          <Button variant="outline" size="icon" className="w-12 lg:hidden float-right">
+          <Button variant="outline" size="icon" className="w-12 lg:hidden float-right" >
             <MenuIcon className="h-8 w-8" fill="#0000" />
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
@@ -27,21 +40,27 @@ export default function Navbar() {
         </SheetTrigger>
         <SheetContent side="right">
           <Link href="#" className="mr-6 hidden lg:flex" prefetch={false}>
-            <MountainIcon className="h-6 w-6" />
+            
             <span className="sr-only">Acme Inc</span>
           </Link>
           <div className="grid gap-2 py-6">
             <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" prefetch={false}>
               Home
             </Link>
-            <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" prefetch={false}>
+            <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" 
+            prefetch={false} onClick={(e) => { e.preventDefault(); handleNavLinkClick('about'); }}
+            >
               About
             </Link>
-            <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" prefetch={false}>
-              Services
+            <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" 
+            prefetch={false} onClick={(e) => { e.preventDefault(); handleNavLinkClick('skills'); }}
+            >
+              Skills
             </Link>
-            <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold" prefetch={false}>
-              Contact
+            <Link href="#" className="flex w-full items-center py-2 text-lg font-semibold"
+             prefetch={false} onClick={(e) => { e.preventDefault(); handleNavLinkClick('projects'); }}
+             >
+              Projects
             </Link>
             <ModeTheme />
           </div>
@@ -62,23 +81,23 @@ export default function Navbar() {
         <Link
           href="#"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-          prefetch={false}
+          prefetch={false} onClick={(e) => { e.preventDefault(); handleNavLinkClick('about'); }}
         >
           About
         </Link>
         <Link
           href="#"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-          prefetch={false}
+          prefetch={false} onClick={(e) => { e.preventDefault(); handleNavLinkClick('skills'); }}
         >
-          Services
+          Skills
         </Link>
         <Link
           href="#"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-          prefetch={false}
+          prefetch={false} onClick={(e) => { e.preventDefault(); handleNavLinkClick('projects'); }}
         >
-          Contact
+          Projects
         </Link>
         <ModeTheme/>
       </nav>

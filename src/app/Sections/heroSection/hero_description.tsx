@@ -15,21 +15,21 @@ export function Description(){
                         <SquareTerminal className="size-72"  strokeWidth={0.25} />
                         <Binary className="size-72" strokeWidth={0.25} />
             </div>
-            <h1 className="lg:text-7xl text-5xl  font-bold">HI! I am <span className="text-mycolor">Ambuj</span></h1>
+            <h1 className="lg:text-7xl text-5xl  font-bold">Hi! I am <span className="text-mycolor">Ambuj</span></h1>
             <div className="flex flex-row text-lg flex-1 items-baseline">
                 <span className="md:text-5xl text-3xl pr-5">I am a</span>
                 <h1 className= "font-bold lg:text-3xl text-2xl text-mycolor"><Typer /> </h1>
             </div>
             
-            <h2 className="w-full text-justify text-lg leading-8">
-            Hi there! I'm Ambuj Vats a passionate B.Tech 
-            graduate in Information Technology, with a 
-            knack for crafting innovative solutions 
-            using React, Spring Boot, and APIs. Armed 
-            with a solid foundation in IT and a thirst 
-            for technological innovation, I thrive in the 
-            dynamic world of web development. My journey 
-            began with a curiosity-driven exploration of 
+            <h2 className="w-full text-justify text-md lg:text-lg leading-8 lg:leading-10">
+            A <span className="text-mycolor font-semibold">full-stack software engineer</span> passionate about building 
+            exceptional web experiences.  My expertise spans front-end 
+            development with <span className="text-mycolor">React, Next.js, Material UI,</span> and <span className="text-mycolor">Tailwind CSS,</span> as well as back-end development 
+            using <span className="text-mycolor">Java</span> and <span className="text-mycolor">Spring Boot.</span> I've honed my problem-solving skills through extensive practice 
+            with data structures and algorithms <span className="text-mycolor">(600+ problems solved on 
+            LeetCode/GeeksforGeeks).</span> I am seeking an opportunity to launch my 
+            IT career and contribute to a forward-thinking team.  I'm a dedicated 
+            learner, ready to embrace new challenges and make a real impact. 
             </h2>
             <div className="z-20 flex gap-2">
                 <Button className={buttonVariants({ variant: "mybutton", size:"lg" })} asChild>

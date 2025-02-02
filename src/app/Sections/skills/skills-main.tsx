@@ -7,7 +7,7 @@ export default function SkillMain(){
     return(
         <div className="py-8">
             <div className="flex justify-center w-full">
-            <HeaderTitle title="SKILLS" />
+            <HeaderTitle title="Abilities" />
             </div>
             
             <SkillsShowcase skills={SKILLS_DATA} />
