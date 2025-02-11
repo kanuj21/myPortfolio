@@ -11,7 +11,7 @@ Welcome to my **professional portfolio**, built using **Next.js, TypeScript, and
 
 
 ## Preview
-![Preview](public/img/PortfolioDark.png)
+![Preview](public/img/Preview.png)
 
 ## Getting Started
 
