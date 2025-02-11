@@ -4,43 +4,43 @@
 
 
   // Front End Framework
-  import RtSVG from "@/app/Icons/React.svg";
+//   import RtSVG from "@/app/Icons/React.svg";
 
-  import TailwindSVG from "@/app/Icons/TailwindCSS.svg";
-  import BootStrapSVG from "@/app/Icons/Bootstrap.svg";
-  import NextSVG from "@/app/Icons/Nextjs.svg"
-  import MuiSVG from "@/app/Icons/MaterialUI.svg";
+//   import TailwindSVG from "@/app/Icons/TailwindCSS.svg";
+//   import BootStrapSVG from "@/app/Icons/Bootstrap.svg";
+//   import NextSVG from "@/app/Icons/Nextjs.svg"
+//   import MuiSVG from "@/app/Icons/MaterialUI.svg";
 
   //Backend Framework
-  import SpringSVG from "@/app/Icons/Spring.svg";
-  import LaravelSVG from "@/app/Icons/Laravel.svg"
+//   import SpringSVG from "@/app/Icons/Spring.svg";
+//   import LaravelSVG from "@/app/Icons/Laravel.svg"
 
   //Web Tech
-  import HtmlSVG from "@/app/Icons/HTML5.svg";
-  import CssSVG from "@/app/Icons/CSS3.svg";
-  import JavascriptSVG from "@/app/Icons/JavaScript.svg";
-  import TypescriptSVG from "@/app/Icons/TypeScript.svg";
+//   import HtmlSVG from "@/app/Icons/HTML5.svg";
+//   import CssSVG from "@/app/Icons/CSS3.svg";
+//   import JavascriptSVG from "@/app/Icons/JavaScript.svg";
+//   import TypescriptSVG from "@/app/Icons/TypeScript.svg";
   
   //Tools
-  import GitSVG from "@/app/Icons/Git.svg"
-  import VSCodeSVG from "@/app/Icons/VSCode.svg"
-  import InteliJSVG from "@/app/Icons/IntelliJIDEA.svg"
-  import LinuxSVG from "@/app/Icons/Linux.svg"
-  import PostmanSVG from "@/app/Icons/Postman.svg"
+//   import GitSVG from "@/app/Icons/Git.svg"
+//   import VSCodeSVG from "@/app/Icons/VSCode.svg"
+//   import InteliJSVG from "@/app/Icons/IntelliJIDEA.svg"
+//   import LinuxSVG from "@/app/Icons/Linux.svg"
+//   import PostmanSVG from "@/app/Icons/Postman.svg"
 
   
   // Language
-  import JavaSVG from "@/app/Icons/Java.svg";
-  import CPlusSVG from "@/app/Icons/CPlusPlus.svg";
-  import PhpSVG from "@/app/Icons/PHP.svg";
+//   import JavaSVG from "@/app/Icons/Java.svg";
+//   import CPlusSVG from "@/app/Icons/CPlusPlus.svg";
+//   import PhpSVG from "@/app/Icons/PHP.svg";
   
  
   
   
   // Database and ORMS
-  import SqlSVG from "@/app/Icons/MySQL.svg";
-  import PostgresSVG from "@/app/Icons/PostgresSQL.svg";
-  import HibernateSvg from "@/app/Icons/Hibernate.svg"
+//   import SqlSVG from "@/app/Icons/MySQL.svg";
+//   import PostgresSVG from "@/app/Icons/PostgresSQL.svg";
+//   import HibernateSvg from "@/app/Icons/Hibernate.svg"
  
 
   
@@ -300,4 +300,8 @@
 
    export default SKILLS_DATA;
   
-  
+  /**
+ * 🚀 If you find this project useful, please ⭐️ it on GitHub and share it!  
+ * 🔗 GitHub: https://github.com/kanuj21  
+ * 💖 Your support keeps this project growing!  
+ */

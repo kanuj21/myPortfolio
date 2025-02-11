@@ -34,11 +34,11 @@ export const ProjectData:Project[] = [
     },
 
     {
-        image: "./img/SuperHero.png", // Replace with the actual image path
+        image: "./img/SuperHero.png", 
         title: "Superhero App",
         description: "A web application that fetches and displays information about superheroes using the Superhero API. Users can search for their favorite heroes and view their powers, biography, and images.",
-        git: "https://github.com/kanuj21/Super-Hero-API", // Replace with your actual GitHub repository URL
-        demo: "https://kanuj21.github.io/Super-Hero-API/", // Replace with the URL of your deployed app
+        git: "https://github.com/kanuj21/Super-Hero-API", 
+        demo: "https://kanuj21.github.io/Super-Hero-API/",
         techs: [
           { name: "HTML", color:"bg-pink-600" },
           { name: "CSS", color:"bg-red-800" },
@@ -48,11 +48,11 @@ export const ProjectData:Project[] = [
       },
 
       {
-        image: "./img/Portfolio.png", // Replace with the actual image path
+        image: "./img/Portfolio.png",
         title: "Personal Portfolio Website",
         description: "A modern and interactive portfolio website built with Next.js, Framer Motion, Tailwind CSS, TypeScript, and Shadcn UI. Showcases my skills and projects in a visually appealing and engaging manner.",
-        git: "https://github.com/your-username/portfolio-website", // Replace with your actual GitHub repository URL
-        demo: "https://your-portfolio-website-url.com", // Replace with the URL of your deployed portfolio
+        git: "https://github.com/your-username/portfolio-website", 
+        demo: "https://your-portfolio-website-url.com", 
         techs: [
           { name: "Next.js", color: "bg-zinc-600" }, // Black for Next.js
           { name: "Framer Motion", color: "bg-orange-700" }, // Orange for Framer Motion
@@ -65,3 +65,10 @@ export const ProjectData:Project[] = [
         ],
       }
 ]
+
+
+/**
+ * 🚀 If you find this project useful, please ⭐️ it on GitHub and share it!  
+ * 🔗 GitHub: https://github.com/kanuj21  
+ * 💖 Your support keeps this project growing!  
+ */

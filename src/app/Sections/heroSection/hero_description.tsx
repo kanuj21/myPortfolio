@@ -1,3 +1,12 @@
+/**
+ * 🔗 Stay Connected:
+ * GitHub: https://github.com/kanuj21
+ * Portfolio: https://kanuj21.github.io/myPortfolio/
+ * 
+ * 📜 this file is hero-section description about me. It is just after navbar.
+ */
+
+
 import { Button } from "@/components/ui/button";
 import { Typer } from "./autotyper";
 import Link from "next/link";
@@ -27,7 +36,7 @@ export function Description(){
             development with <span className="text-mycolor">React, Next.js, Material UI,</span> and <span className="text-mycolor">Tailwind CSS,</span> as well as back-end development 
             using <span className="text-mycolor">Java</span> and <span className="text-mycolor">Spring Boot.</span> I've honed my problem-solving skills through extensive practice 
             with data structures and algorithms <span className="text-mycolor">(600+ problems solved on 
-            LeetCode/GeeksforGeeks).</span> I am seeking an opportunity to launch my 
+            LeetCode & GeeksforGeeks).</span> I am seeking an opportunity to launch my 
             IT career and contribute to a forward-thinking team.  I'm a dedicated 
             learner, ready to embrace new challenges and make a real impact. 
             </h2>
@@ -42,3 +51,10 @@ export function Description(){
         </div>
     )
 }
+
+
+/**
+ * 🚀 If you find this project useful, please ⭐️ it on GitHub and share it!  
+ * 🔗 GitHub: https://github.com/kanuj21  
+ * 💖 Your support keeps this project growing!  
+ */

@@ -15,7 +15,7 @@ export default function Navbar() {
   
 
   const handleNavLinkClick = (sectionId: string) => {
-    console.log(sectionId)
+    
     const targetSection = document.getElementById(sectionId);
     if (targetSection) {
       targetSection.scrollIntoView({ behavior: "smooth" });
@@ -145,3 +145,8 @@ const MountainIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
     </svg>
   )
 }
+/**
+ * 🚀 If you find this project useful, please ⭐️ it on GitHub and share it!  
+ * 🔗 GitHub: https://github.com/kanuj21  
+ * 💖 Your support keeps this project growing!  
+ */

@@ -24,3 +24,9 @@ export function Profile(){
         </div>
     )
 }
+
+/**
+ * 🚀 If you find this project useful, please ⭐️ it on GitHub and share it!  
+ * 🔗 GitHub: https://github.com/kanuj21  
+ * 💖 Your support keeps this project growing!  
+ */

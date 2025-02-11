@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 My Portfolio - [Ambuj Vats](https://kanuj21.github.io/myPortfolio/)
+
+![Visitor Count](https://komarev.com/ghpvc/?username=kanuj21&repo=myPortfolio&color=blue)
+
+Welcome to my **professional portfolio**, built using **Next.js, TypeScript, and Tailwind CSS**. This portfolio showcases my skills, projects, and experience as a **Full-Stack Developer**.
+
+## 🌟 Features
+- **🚀 Fast & Responsive** – Optimized for all devices.
+- **🎨 Elegant UI** – Clean and modern design with **Tailwind CSS**.
+- **📄 Dynamic Projects Section** – 
+
+
+## Preview
+![Preview](public/img/PortfolioDark.png)
 
 ## Getting Started
 
@@ -29,8 +42,10 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🌟 Support This Project!  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you find this project helpful, please **give it a star ⭐ on GitHub**!  
+Your support motivates me to keep improving it.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 **GitHub:** [mypo](https://github.com/kanuj21)  
+💬 **Follow Me:** [Your Portfolio](https://yourportfolio.com)  
