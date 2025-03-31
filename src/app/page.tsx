@@ -6,7 +6,7 @@ import { About } from "./Sections/about/about";
 import SkillMain from "./Sections/skills/skills-main";
 import Footer from "./Sections/Footer/footer";
 import Project from "./Sections/Projects/project";
-import Quotes from "./Sections/Quetes/quote";
+import Quotes from "./Sections/Quotes/quote";
 
 
 export default function Home() {
