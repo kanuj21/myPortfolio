@@ -1,0 +1,43 @@
+const quotes = [
+    "Code is like humor. When you have to explain it, it’s bad.",
+    "Simplicity is the soul of efficiency.",
+    "First, solve the problem. Then, write the code.",
+    "Experience is the name everyone gives to their mistakes.",
+    "Your code is your story. Make it readable.",
+    "Innovation is created one commit at a time.",
+    "Code is like poetry; every line should have a purpose.",
+    "Debugging is like detective work—your own code is the crime scene.",
+    "A great developer writes less code but solves more problems.",
+    "Software is never finished; it’s only abandoned.",
+    "In coding, as in life, simplicity is the ultimate sophistication.",
+    "The best code is the one you never have to write.",
+    "Think twice, code once.",
+    "Every bug teaches you something; the trick is to listen.",
+    "Code as if the next person maintaining it is a psychopath who knows where you live.",
+    "Scalability is not just about performance; it’s about preparing for the unknown.",
+    "A bug in your code is like a blunder in chess—sometimes, it costs you the game.",
+    "A good developer, like a good chess player, thinks several moves ahead.",
+    "The best software, like the best chess moves, is built on strong fundamentals.",
+    "Programming is like chess: you don’t move randomly, you move with intent.",
+    "Tech debt is like sacrificing your queen—it might seem necessary now, but you’ll regret it later.",
+    "Refactoring is like repositioning your pieces—small changes lead to a winning strategy.",
+    "In coding and chess, patience is the difference between a good move and a great move.",
+    "Every commit is a move; every rollback is an undo.",
+    "Endgames in chess are like optimizations in software—plan ahead, or you’ll lose in the final stretch.",
+    "Legacy code is like an old chess opening—you either adapt or get crushed.",
+
+// Philosophical & Deep Quotes About Software & Life:
+
+    "Code, like life, is about making decisions with incomplete information.",
+    "A programmer who stops learning is like a candle without a flame.",
+    "Automation is just another name for solving tomorrow’s problems today.",
+    "The beauty of software is that it turns thoughts into reality.",
+    "Great software is like a great book—it tells a compelling story without unnecessary words.",
+    "Failure in code is just a step toward mastery—every bug fixed is wisdom gained.",
+    "The only way to truly understand a system is to build it, break it, and rebuild it.",
+    "Software engineers are modern-day alchemists—turning logic into gold.",
+    "A bug-free system is like a utopia—impossible, but worth striving for.",
+    "The more I code, the more I realize that the only constant is change.",
+];
+
+export default quotes;

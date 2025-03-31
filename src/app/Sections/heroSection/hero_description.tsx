@@ -45,7 +45,7 @@ export function Description(){
                 <Link href="mailto:tomail.ambuj@gmail.com" >Hire Me</Link>
                 </Button>
                 <Button className={buttonVariants({ variant: "mybutton", size:"lg" })} asChild>
-                <Link href="./Resume.pdf" >Resume</Link>
+                <Link href="./Resume_Ambuj.pdf" >Resume</Link>
                 </Button>
             </div>
         </div>

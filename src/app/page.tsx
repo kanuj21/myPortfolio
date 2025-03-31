@@ -6,7 +6,7 @@ import { About } from "./Sections/about/about";
 import SkillMain from "./Sections/skills/skills-main";
 import Footer from "./Sections/Footer/footer";
 import Project from "./Sections/Projects/project";
-
+import Quotes from "./Sections/Quetes/quote";
 
 
 export default function Home() {
@@ -19,7 +19,10 @@ export default function Home() {
       </div>
       <div className="w-full py-4 pt-8 lg:p-4">
       <HeroSection />
-
+      <div className="py-14 flex justify-center">
+      <Quotes />
+      </div>
+      
       <div id="about">
       <About />
       </div>
