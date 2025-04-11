@@ -7,6 +7,7 @@ import SkillMain from "./Sections/skills/skills-main";
 import Footer from "./Sections/Footer/footer";
 import Project from "./Sections/Projects/project";
 import Quotes from "./Sections/Quotes/quote";
+import ContactForm from "./Sections/Contact/contact-from";
 
 
 export default function Home() {
@@ -37,7 +38,9 @@ export default function Home() {
       <div id = "projects">
       <Project  />
       </div>
-        
+      <div id = "contact">
+      <ContactForm  />
+      </div> 
       </div>
       <Footer/>
     </div>

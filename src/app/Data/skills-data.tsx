@@ -207,7 +207,7 @@
                 icon: "./Icons/React.svg", // Updated path
             },
             {
-                name: "Nextjs",
+                name: "Next.js",
                 icon: "./Icons/Nextjs.svg", // Updated path
             },
             {
@@ -231,6 +231,14 @@
             {
                 name: "Laravel",
                 icon: "./Icons/Laravel.svg", // Updated path
+            },
+            {
+                name: "Node.js",
+                icon: "./Icons/Node.svg", // Updated path
+            },
+            {
+                name: "Express.js",
+                icon: "./Icons/Express.svg", // Updated path
             },
         ],
     },
@@ -267,6 +275,10 @@
             {
                 name: "Hibernate",
                 icon: "./Icons/Hibernate.svg", // Updated path
+            },
+            {
+                name: "MongoDB",
+                icon: "./Icons/MongoDB.svg", // Updated path
             },
         ],
     },
