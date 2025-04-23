@@ -47,5 +47,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 If you find this project helpful, please **give it a star ⭐ on GitHub**!  
 Your support motivates me to keep improving it.  
 
-🔗 **GitHub:** [mypo](https://github.com/kanuj21)  
-💬 **Follow Me:** [Your Portfolio](https://yourportfolio.com)  
+🔗 **Visit My Portfolio:** [myportfolio](https://my-portfolio-green-omega.vercel.app/)  
+💬 **Follow Me:** [LinkedIN](https://www.linkedin.com/in/ambuj-vats-649a7b11b/)  
